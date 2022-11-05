@@ -3,16 +3,17 @@
 }
 
 body {
-    margin-top: 3rem;
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: #26877F;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #EDE7F1;
 }
 
 header {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     display: flex;
     justify-content: center;
+    margin: 0;
+    background-color: #26877F;
 }
 
 header img {
@@ -20,8 +21,7 @@ header img {
 }
 
 nav {
-    background-color: #EDE7F1;
-    margin: 2rem;    
+    background-color: #B53434;
 }
 
 nav ul {
@@ -38,7 +38,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #b53434;
+    color: #EDE7F1;
 }
 
 nav a:hover {
@@ -48,12 +48,15 @@ nav a:hover {
 section {
     display: flex;
     text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
 }
 
 article {
     margin: 2rem; 
     padding: 2rem;
-    background-color: #EDE7F1;
+    background-color: #26877F;
 }
 
 h1 {
@@ -63,7 +66,7 @@ h1 {
 }
 
 .card-container {
-    margin: auto;
+    justify-self: center;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 5rem;
@@ -89,7 +92,6 @@ h1 {
     padding-bottom: 60%;
 }
 
-
 .card-background {
     background-size: cover;
     background-position: center;
@@ -100,7 +102,6 @@ h1 {
     right: 0;
     top: 0;
     bottom: 0;
-    border-radius: 1px;
 }
 
 h2 {
@@ -110,13 +111,13 @@ h2 {
     position: relative;
     text-align: center;
     text-decoration: none;
-    background-color: #EDE7F1;
+    background-color: #26877F;
     transition: .2s;
 }
 
 .card-container a {
     text-decoration: none;
-    color: #b53434;
+    color: #EDE7F1;
 }
 
 .card:hover .card-background {
@@ -140,9 +141,9 @@ footer {
     display: grid;
     align-items: center;
     grid-template-columns: repeat(3, 1fr);
-    padding-top: 2rem;
-    border-top: #EDE7F1 0.2rem solid;
-    margin: 2rem;    
+    padding: 2rem;
+    background-color: #26877F;
+    margin-top: 2rem;    
     margin-bottom: 0;    
 }
 
@@ -151,5 +152,5 @@ footer p {
 }
 
 footer img {
-    width: 5rem;
+    width: 2rem;
 }
